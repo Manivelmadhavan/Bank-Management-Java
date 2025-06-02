@@ -29,12 +29,12 @@ This system provides the following functionalities:
 3.  **Compile**: Open a terminal or command prompt, navigate to the project directory, and compile the Java files:
 
     ```bash
-    javac BankAccount.java Transaction.java BankManagementSystem.java
+    javac BankAccount.java Transaction.java Main.java
     ```
 4.  **Run**: Execute the main class:
 
     ```bash
-    java BankManagementSystem
+    java Main
     ```
 
 ## How to Use
@@ -45,7 +45,7 @@ Once the application is running, follow the on-screen menu to choose an option (
 
 *   `BankAccount.java`: Defines the `BankAccount` class with methods for transactions and balance inquiry.
 *   `Transaction.java`: Defines the `Transaction` class to record transaction details.
-*   `BankManagementSystem.java`: Contains the `main` method to run the application and handle user input.
+*   `Main.java`: Contains the `main` method to run the application and handle user input.
 *   `README.md`: This file.
 
 ## Future Improvements (Optional)
